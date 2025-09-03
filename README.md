@@ -18,7 +18,6 @@ A simple ASP.NET Core Web API for managing todo items. This application demonstr
 ## Getting Started
 
 ### 1. Clone the Repository
-git clone <repository-url> cd TodoApi
 
 ### 2. Configure the Database
 
