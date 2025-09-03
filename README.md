@@ -63,3 +63,20 @@ dotnet test
 ## License
 
 This project is licensed under the MIT License.
+
+## AI Feedback  
+### Was it easy to complete the task using AI?  
+Overall yes.
+### How long did task take you to complete?  
+2-3 hours.
+### Was the code ready to run after generation?  
+Yes.
+### What did you have to change to make it usable?
+Just the connection string for the DB in the .json, the code seems to be working.
+### Which challenges did you face during completion of the task?
+Getting the initial outline of the project, i had to prompt a bunch of times with some tweaks to get something I liked. I also had some trouble setting up mysql and the connection.
+### Which specific prompts you learned as a good practice to complete the task?  
+"Help me with this task: "Create a RESTful API to manage a simple todo list application using ASP.NET Core, EF and MySQL. The application should allow users to create, read, update, and delete todo items. Each item should have a title and a description. Use EF.Core to persist the items in the database." "Acceptance Criteria:  There are all the required codes and configs in the repository to run the application.  There is a readme.md file with the application description and instructions on how to run it.  Code is of good quality and easy to read and understand.  There are unit tests in place, coverage >80%  There are quality checks (coverage, complexity, check style)  "
+I will use visual studio"
+
+
