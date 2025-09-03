@@ -22,7 +22,7 @@ A simple ASP.NET Core Web API for managing todo items. This application demonstr
 ### 2. Configure the Database
 
 Update the `DefaultConnection` string in `appsettings.json` with your MySQL server details:
-"ConnectionStrings": { "DefaultConnection": "server=localhost;database=todo_db;user=root;password=yourpassword;" }
+"ConnectionStrings": { "DefaultConnection": "server=localhost;database=TodoDb;user=root;password=yourPassword;" }
 
 ### 3. Apply Migrations
 dotnet ef database update
