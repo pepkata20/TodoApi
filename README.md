@@ -24,21 +24,24 @@ A simple ASP.NET Core Web API for managing todo items. This application demonstr
 Update the `DefaultConnection` string in `appsettings.json` with your MySQL server details:
 "ConnectionStrings": { "DefaultConnection": "server=localhost;database=TodoDb;user=root;password=yourPassword;" }
 
-### 3. Apply Migrations
-dotnet ef database update
+### 3. Create the database
+In Package Manager Console:  
+  Add-Migration InitialCreate  
+  Update-Database  
+
 
 ### 4. Run the Application
 
 
-The API will be available at `https://localhost:5001` (or the port shown in the console).
+The API will be available at `https://localhost:7041` (or the port shown in the console).
 
 ### 5. Explore the API
 
-Navigate to `https://localhost:5001/swagger` to view and test the API endpoints using Swagger UI.
+Navigate to `https://localhost:7041/swagger/index.html` to view and test the API endpoints using Swagger UI.
 
 ## Running Tests
 
-Unit tests are located in the `TodoApi.Tests` project. To run tests:
+Unit tests are located in the `TodoApi.Tests` project. To run tests:  
 dotnet test
 
 ## API Endpoints
